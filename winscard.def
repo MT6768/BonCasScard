@@ -1,0 +1,17 @@
+LIBRARY winscard
+EXPORTS
+    SCardConnectA=SCardConnectAHook @1
+    SCardConnectW=SCardConnectWHook @2
+    SCardDisconnect=SCardDisconnectHook @3
+    SCardEstablishContext=SCardEstablishContextHook @4
+    SCardFreeMemory=SCardFreeMemoryHook @5
+    SCardGetStatusChangeA=SCardGetStatusChangeAHook @6
+    SCardGetStatusChangeW=SCardGetStatusChangeWHook @7
+    SCardIsValidContext=SCardIsValidContextHook @8
+    SCardListReadersA=SCardListReadersAHook @9
+    SCardListReadersW=SCardListReadersWHook @10
+    SCardReleaseContext=SCardReleaseContextHook @11
+    SCardStatusA=SCardStatusAHook @12
+    SCardStatusW=SCardStatusWHook @13
+    SCardTransmit=SCardTransmitHook @14
+    g_rgSCardT1Pci=g_rgSCardT1PciHook @15
