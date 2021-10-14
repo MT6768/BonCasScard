@@ -31,8 +31,8 @@ extern "C" {
 }
 extern const SCARD_IO_REQUEST g_rgSCardT1PciHook = { SCARD_PROTOCOL_T1, sizeof(SCARD_IO_REQUEST) };
 
-static const LPSTR szBCASReaderNameA = "BonCasLink Proxy BCAS\0\0";
-static const LPWSTR szBCASReaderNameW = L"BonCasLink Proxy BCAS\0\0";
+static const LPSTR szBCASReaderNameA = "BonCasLink Proxy Card Reader\0\0";
+static const LPWSTR szBCASReaderNameW = L"BonCasLink Proxy Card Reader\0\0";
 static char szNameBufA[64];
 static WCHAR szNameBufW[64];
 static DWORD dwNameBufLen;
